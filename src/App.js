@@ -7,8 +7,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import image from "./imageInSrc.jpg";
 import video from "./Wildlife.wmv";
 
-class App extends Component {
-	render() {
+const App = () => {
+	
 		return (
 			<>
 				<div style={{ border: "solid 1px black", maxWidth: "100vw" }}>
@@ -25,7 +25,7 @@ class App extends Component {
 			</>
 
 		);
-	}
+	
 }
 
 export default App;
